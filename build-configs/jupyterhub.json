@@ -38,7 +38,7 @@
                 "source": {
                     "type": "Git",
                     "git": {
-                        "uri": "https://github.com/jupyter-on-openshift/jupyterhub-quickstart.git",
+                        "uri": "https://github.com/nidaname/jupyterhub-quickstart-personalver.git",
                         "ref": "3.4.0"
                     }
                 },
@@ -47,7 +47,7 @@
                     "sourceStrategy": {
                         "from": {
                             "kind": "ImageStreamTag",
-                            "name": "python:3.6",
+                            "name": "python:3.6-ubi8",
                             "namespace": "openshift"
                         }
                     }
