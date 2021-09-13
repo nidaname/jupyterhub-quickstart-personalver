@@ -39,7 +39,7 @@
                     "type": "Git",
                     "git": {
                         "uri": "https://github.com/nidaname/jupyterhub-quickstart-personalver.git",
-                        "ref": "3.4.0"
+                        "ref": "develop-1"
                     }
                 },
                 "strategy": {
