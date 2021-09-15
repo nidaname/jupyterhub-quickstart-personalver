@@ -15,7 +15,7 @@ RUN rm -rf /tmp/src/.git* && \
     chmod -R g+w /tmp/src && \
     mv /tmp/src/.s2i/bin /tmp/scripts
 
-RUN yum install nodejs
+RUN curl -fsSL https://rpm.nodesource.com/setup_lts.x | bash -
 
 USER 1001
 
