@@ -16,8 +16,8 @@ RUN rm -rf /tmp/src/.git* && \
     mv /tmp/src/.s2i/bin /tmp/scripts
 
 RUN curl -fsSL https://rpm.nodesource.com/setup_lts.x | bash - && \
-    sudo yum remove -y nodejs npm && \
-    sudo yum install -y nodejs
+    yum remove -y nodejs npm && \
+    yum install -y nodejs
 
 USER 1001
 
