@@ -18,7 +18,9 @@ echo " -----> Installing npm packages."
 
 # Update npm, nodejs first
 
-curl -fsSL https://rpm.nodesource.com/setup_lts.x | bash -
+#curl -fsSL https://rpm.nodesource.com/setup_lts.x | bash -
+
+yum install nodejs
 
 npm install -g configurable-http-proxy
 
