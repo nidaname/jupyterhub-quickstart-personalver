@@ -25,6 +25,8 @@ USER 1001
 
 ENV NPM_CONFIG_PREFIX=/opt/app-root \
     PYTHONPATH=/opt/app-root/src
+    
+RUN node -v && npm -v
 
 RUN /tmp/scripts/assemble
 
