@@ -22,7 +22,7 @@ echo " -----> Installing npm packages."
 
 # yum install nodejs
 
-npm install -g configurable-http-proxy
+# npm install -g configurable-http-proxy
 
 # Copy global JupyterHub config file into place.
 
