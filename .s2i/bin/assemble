@@ -16,6 +16,10 @@ pip install -r /tmp/src/requirements.txt
 
 echo " -----> Installing npm packages."
 
+# Update npm, nodejs first
+
+curl -fsSL https://rpm.nodesource.com/setup_lts.x | sudo bash -
+
 npm install -g configurable-http-proxy
 
 # Copy global JupyterHub config file into place.
