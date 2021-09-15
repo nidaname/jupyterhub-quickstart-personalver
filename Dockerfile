@@ -21,6 +21,8 @@ RUN curl -fsSL https://rpm.nodesource.com/setup_lts.x | bash - && \
 
 RUN node -v && npm -v
 
+RUN npm install -g configurable-http-proxy
+
 USER 1001
 
 ENV NPM_CONFIG_PREFIX=/opt/app-root \
