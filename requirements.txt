@@ -10,7 +10,7 @@
 #openshift==0.10.0
 #wrapt==1.11.2
 
-kubernetes
+#kubernetes
 jupyterhub
 jupyterhub-kubespawner
 wrapspawner
